@@ -6,16 +6,13 @@ body {
     margin: 0px;
 }
 
-.top-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .container {
     display: flex;
+    justify-content: center;
+}
+
+.container#heading {
     flex-direction: column;
-    gap: 36px 0;
 }
 
 .header {
@@ -59,4 +56,32 @@ body {
 
 button#top-page {
     width: 5em;
+}
+
+.container#illustrations {
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 10vw;
+}
+
+.square {
+    height: 10vw;
+    width: 10vw;
+    margin-bottom: 16px;
+}
+
+.card-text {
+    margin: 0;
+    /* padding: 0; */
+    text-align: center;
+}
+
+#illustrations .container {
+    column-gap: 16px;
 }

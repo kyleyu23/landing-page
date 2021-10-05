@@ -135,3 +135,11 @@ button#top-page {
     align-items: center;
     flex: 1;
 }
+
+.container#footer {
+    justify-content: center;
+}
+
+.container p {
+    margin: 0px;
+}

@@ -8,11 +8,15 @@ body {
 
 .container {
     display: flex;
+}
+
+.container#first {
     justify-content: center;
 }
 
 .container#heading {
     flex-direction: column;
+    /* width: 60%; */
 }
 
 .header {
@@ -35,7 +39,7 @@ body {
 .title-container {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    flex: 1;
 }
 
 .title {
@@ -50,24 +54,28 @@ body {
 
 .img-placeholder {
     display: flex;
-    /* width: 50vw; */
-    width: 50%;
+    flex: 1;
 }
 
 button#top-page {
     width: 5em;
 }
 
-.container#illustrations {
+.container#second {
     flex-direction: column;
     align-items: center;
+}
+
+.container#illustrations {
+    width: 50%
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 10vw;
+    /* 100/4 */
+    /* width: 25%; */
 }
 
 .square {
@@ -84,4 +92,46 @@ button#top-page {
 
 #illustrations .container {
     column-gap: 16px;
+}
+
+.container#third {
+    justify-content: center;
+}
+
+.container#quote {
+    flex-direction: column;
+    width: 40%
+}
+
+#quote p {
+    margin: 0px;
+}
+
+.quote-owner {
+    align-self: flex-end;
+}
+
+.container#fourth {
+    justify-content: center;
+}
+
+.container#call-to-action {
+    justify-content: center;
+    padding: 16px 64px;
+}
+
+.container#text {
+    flex-direction: column;
+    flex: 1;
+}
+
+#text p {
+    margin: 0;
+}
+
+.container.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }

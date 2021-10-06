@@ -122,6 +122,8 @@ body {
     width: 70vw;
     padding-top: 54px;
     padding-bottom: 54px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 8px;
 }
 
